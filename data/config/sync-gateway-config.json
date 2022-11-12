@@ -1,0 +1,16 @@
+{
+  "bootstrap": {
+    "server": "couchbase://couchbase-server", 
+    "username": "admin", 
+    "password": "44IP1gA^yT82mg^i8IrWJHe1#07X3HZq",
+    "server_tls_skip_verify": true, 
+    "use_tls_server": false 
+  },
+  "logging": { 
+    "console": {
+      "enabled": true,
+      "log_level": "info",
+      "log_keys": ["*"]
+    }
+  }
+}

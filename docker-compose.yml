@@ -1,0 +1,32 @@
+version: '3.6'
+
+# Volumes
+volumes:
+  couchserver-data:
+    driver: local
+
+services:
+
+  # Couchbase Server is a NoSQL document database with a distributed architecture.
+  couchserver:
+    image: couchbase:community-7.1.1
+    container_name: couchbase-server
+    restart: always
+    ports:
+      - "8091-8094:8091-8094"
+    environment:
+      - COUCHDB_USER=admin
+      - COUCHDB_PASSWORD=44IP1gA^yT82mg^i8IrWJHe1#07X3HZq
+    volumes:
+      - couchserver-data:/opt/couchbase/var
+
+  # Sync Gateway is a horizontally scalable web server that securely manages the access control and synchronization of data between 
+  # Couchbase Lite and Couchbase Server.
+  sync-gateway:
+    image: couchbase/sync-gateway:community
+    container_name: couchbase-sync-gateway
+    ports:
+      - "4984-4986:4984-4986"
+    volumes:
+      - ./data/config/sync-gateway-config.json:/etc/sync_gateway/config.json
+
