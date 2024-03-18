@@ -1,0 +1,16 @@
+Flask
+Flask-Session
+sentence-transformers
+langchain
+transformers
+scipy
+trl
+bitsandbytes
+peft
+accelerate
+torch
+datasets
+langchain
+qdrant-client
+pypdf
+langchain-community
