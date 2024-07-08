@@ -1,4 +1,4 @@
-# Streamlit LLM Applications Showcase 🚀
+# Streamlit LLM: Transformative AI Applications 🌟
 
 Welcome to the Streamlit LLM Applications Showcase! This repository contains several Proof of Concept (POC) applications utilizing open-source LLM (Large Language Model) models, powered by Groq for cloud inference and orchestrated using LangChain framework. These applications are designed with Streamlit for interactive user interfaces.
 
