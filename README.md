@@ -14,6 +14,8 @@ This application serves as a dynamic writing assistant leveraging LLM models. It
 - LangChain framework orchestrates model interactions seamlessly.
 - Streamlit offers a user-friendly interface for interactive use.
 
+<img src="doc/picture_3.PNG" />
+
 ### 2. streamlit-extract-json-from-review 📝
 
 **Purpose:**
@@ -23,6 +25,9 @@ Extracts key information from product reviews using LLM models. It identifies se
 - Enables structured data extraction from unstructured text using Groq.
 - LangChain simplifies the integration and orchestration of LLM models.
 - Streamlit provides an intuitive interface for inputting reviews and viewing extracted insights.
+
+<img src="doc/picture_7.PNG" />
+<img src="doc/picture_8.PNG" />
 
 ### 3. streamlit-smart-blog-post-generator 📚
 
@@ -34,6 +39,9 @@ Generates smart blog posts based on user inputs and prompts. This application de
 - LangChain manages the workflow of generating blog posts from prompts efficiently.
 - Streamlit offers a straightforward interface for users to interact with and generate blog content dynamically.
 
+<img src="doc/picture_1.PNG" />
+<img src="doc/picture_2.PNG" />
+
 ### 4. streamlit-split-and-summarize 📄
 
 **Purpose:**
@@ -44,6 +52,8 @@ Splits long texts into manageable chunks and summarizes them using LLM models. T
 - LangChain framework manages the splitting and summarization process seamlessly.
 - Streamlit provides a user-friendly interface for uploading texts and viewing summaries.
 
+<img src="doc/picture_4.PNG" />
+
 ### 5. streamlit-text-summarization 📑
 
 **Purpose:**
@@ -53,3 +63,5 @@ Summarizes long texts into key insights using LLM models. It condenses lengthy d
 - Harnesses Groq for effective text summarization tasks.
 - LangChain orchestrates the summarization workflow using LLM models.
 - Streamlit offers an interactive interface for inputting texts and displaying summaries.
+
+<img src="doc/picture_5.PNG" />
