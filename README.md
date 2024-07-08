@@ -6,13 +6,13 @@ Welcome to the Streamlit LLM Applications Showcase! This repository contains sev
 
 ### 1. streamlit-dynamic-writing-assistant 💬
 
-**Purpose:**
-This application serves as a dynamic writing assistant leveraging LLM models. It assists users in generating coherent and contextually relevant text based on prompts provided. It is ideal for content creators, writers, and anyone needing AI-powered assistance with text generation.
+**Purpose:** This application serves as a dynamic writing assistant leveraging LLM models. It assists users in generating coherent and contextually relevant text based on prompts provided. Ideal for content creators, writers, and anyone needing AI-powered assistance with text generation.
 
 **Advantages:**
-- Utilizes Groq for efficient cloud-based inference.
-- LangChain framework orchestrates model interactions seamlessly.
-- Streamlit offers a user-friendly interface for interactive use.
+- Utilizes Groq for efficient cloud-based inference 🌐
+- LangChain framework orchestrates model interactions seamlessly 🛠️
+- Streamlit offers a user-friendly interface for interactive use 🖥️
+
 
 <img src="doc/picture_3.PNG" />
 
