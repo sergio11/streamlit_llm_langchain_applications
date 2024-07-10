@@ -1,0 +1,8 @@
+Q: When was Napoleon born?
+A: Napoleon was born on August 15, 1769.
+
+Q: Where was Napoleon born?
+A: Napoleon was born in Ajaccio, Corsica.
+
+Q: What was Napoleon's full name?
+A: Napoleon's full name was Napoléon Bonaparte.
