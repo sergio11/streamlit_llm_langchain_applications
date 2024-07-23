@@ -18,14 +18,62 @@ Explore our POC applications to see how transformative AI can be applied across 
 ## Projects Overview 📋
 
 ### 1. streamlit-dynamic-writing-assistant 💬
+# streamlit-dynamic-writing-assistant 💬
 
-**Purpose:** This application serves as a dynamic writing assistant leveraging LLM models. It assists users in generating coherent and contextually relevant text based on prompts provided. Ideal for content creators, writers, and anyone needing AI-powered assistance with text generation.
+## Purpose:
+The **Streamlit Dynamic Writing Assistant** is a cutting-edge application designed to be your intelligent writing companion. Leveraging advanced LLM (Large Language Model) models, this tool helps users generate coherent, contextually relevant text based on provided prompts. It's perfect for content creators, writers, marketers, and anyone in need of AI-powered assistance for text generation. ✍️✨
 
-**Advantages:**
-- Utilizes Groq for efficient cloud-based inference 🌐
-- LangChain framework orchestrates model interactions seamlessly 🛠️
-- Streamlit offers a user-friendly interface for interactive use 🖥️
+## Key Advantages:
 
+- **⚡ Efficient Cloud-Based Inference with Groq:** Harnessing the power of Groq for fast and reliable cloud-based model inference ensures high-performance text generation.
+
+- **🔗 Seamless Orchestration with LangChain:** The LangChain framework orchestrates interactions between different models and tools, providing a smooth and integrated user experience.
+
+- **🖥️ User-Friendly Interface with Streamlit:** Streamlit offers an intuitive and interactive interface, making it easy for users to input prompts and receive AI-generated content in real-time.
+
+## Why Choose This Writing Assistant?
+
+- **🔍 Contextually Aware:** Generates text that is not only grammatically correct but also contextually appropriate, maintaining the flow and relevance of the content.
+  
+- **🌐 Versatile Applications:** Whether you need to write articles, social media posts, marketing copy, or creative stories, this assistant adapts to various writing needs.
+
+- **🚀 Productivity Booster:** Save time and enhance your productivity by letting the AI handle the initial drafting, allowing you to focus on refining and perfecting your content.
+
+## Integration with LangChain
+
+Here's a brief extract from our codebase demonstrating how LangChain has been seamlessly integrated to orchestrate model interactions:
+
+```python
+from langchain.tools import tool
+from langchain_groq import ChatGroq
+from langchain_community.tools.tavily_search import TavilySearchResults
+
+# Initialize LLM with Groq model
+def initialize_llm(api_key, model_id):
+    llm = ChatGroq(temperature=0, api_key=api_key, model=model_id)
+    return llm
+
+@tool("process_search_tool", return_direct=False)
+def process_search_tool(url: str) -> str:
+    """Used to process content found on the internet."""
+    response = requests.get(url=url)
+    soup = BeautifulSoup(response.content, "html.parser")
+    return soup.get_text()
+
+# Example usage within an agent
+llm = initialize_llm(groq_api_key, models[selected_model])
+tools = [TavilySearchResults(max_results=1, api_key=taviliy_api_key), process_search_tool]
+
+online_researcher = Agent(
+    role="Online Researcher",
+    goal="Research the topic online",
+    backstory="""Your primary role is to function as an intelligent online research assistant...""",
+    verbose=True,
+    allow_delegation=True,
+    tools=tools,
+    llm=llm
+)
+```
 
 <img src="doc/picture_3.PNG" />
 
