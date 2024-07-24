@@ -35,8 +35,7 @@ Explore, interact, and experience the power of AI like never before.
 
 ## Projects Overview 📋
 
-### 1. streamlit-dynamic-writing-assistant 💬
-# streamlit-dynamic-writing-assistant 💬
+### 1.streamlit-dynamic-writing-assistant 💬
 
 ## Purpose:
 The **Streamlit Dynamic Writing Assistant** is a cutting-edge application designed to be your intelligent writing companion. Leveraging advanced LLM (Large Language Model) models, this tool helps users generate coherent, contextually relevant text based on provided prompts. It's perfect for content creators, writers, marketers, and anyone in need of AI-powered assistance for text generation. ✍️✨
