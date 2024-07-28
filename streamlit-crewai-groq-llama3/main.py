@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 from crewai import Agent, Task, Crew
 from langchain.tools import tool
 from langchain_groq import ChatGroq
+from langchain.utilities.tavily_search import TavilySearchAPIWrapper
 from langchain_community.tools.tavily_search import TavilySearchResults
 
 load_dotenv()
@@ -103,8 +104,8 @@ def main():
             with st.spinner("Processing... :hourglass_flowing_sand:"):
                 # Initialize LLM with selected model 
                 llm = initialize_llm(groq_api_key, models[selected_model])
-
-                tools = [TavilySearchResults(max_results=1, tavily_api_key=taviliy_api_key), process_search_tool]
+                search = TavilySearchAPIWrapper(tavily_api_key=taviliy_api_key)
+                tools = [TavilySearchResults(max_results=1, api_wrapper=search), process_search_tool]
 
                 agents = initialize_agents(topic, llm, tools)
 

@@ -200,3 +200,31 @@ This application enables users to perform question-answering tasks on CSV files.
 - **User-Friendly:** Intuitive interface that caters to users of all technical levels, from data analysts to business users.
 
 <img src="doc/picture_11.PNG" />
+
+### 9. streamlit-crewai-groq-llama3 📝🤖
+
+**Purpose:**
+This application leverages multiple AI agents to generate comprehensive content on a selected topic. It can produce a detailed report, a polished blog post, and an engaging tweet, all coordinated through a seamless workflow.
+
+**Key Features:**
+- **Topic Selection:** Users can input any topic of interest for content generation.
+- **Multi-Agent Collaboration:** Utilizes various agents, each specializing in different aspects of content creation, such as research, blog writing, and social media management.
+- **Advanced LLM Models:** Powered by Groq and the LLaMA3 model, ensuring high-quality and contextually relevant content.
+- **Creai Evaluation:** Integrates with Creai to rigorously evaluate the performance and capacity of the agents, ensuring accuracy and quality in the generated content.
+- **Interactive UI:** Streamlit provides an intuitive and dynamic interface for users to interact with the application.
+
+**Advantages:**
+- **Efficiency:** Automates the content creation process, saving time and effort for users.
+- **Versatility:** Capable of generating various types of content (reports, blog posts, tweets) on any given topic.
+- **High Quality:** Ensures the content is well-researched, SEO-optimized, and engaging, thanks to advanced LLM models and agent collaboration.
+- **Continuous Improvement:** Uses Creai for performance evaluation, ensuring the agents continuously improve and deliver top-notch results.
+
+**Workflow:**
+1. **Topic Input:** User selects a topic of interest.
+2. **Research Agent:** Gathers information and data on the topic from various online sources.
+3. **Blog Manager Agent:** Writes a detailed and SEO-optimized blog post based on the research.
+4. **Social Media Manager Agent:** Creates a concise and engaging tweet about the topic.
+5. **Content Marketing Manager Agent:** Reviews the content for accuracy, relevance, and appropriateness before approval.
+6. **Creai Evaluation:** Assesses the performance and effectiveness of the agents' outputs.
+
+This POC demonstrates the powerful synergy between multiple AI agents, advanced LLM models, and a user-friendly interface, offering a comprehensive solution for automated content generation and management.
