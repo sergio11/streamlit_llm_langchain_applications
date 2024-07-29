@@ -243,6 +243,14 @@ Contributions to this repository are highly encouraged! If you're interested in 
 
 This repository is developed and maintained by **Sergio Sánchez Sánchez** (Dream Software). Special thanks to the open-source community and the contributors who have made this project possible. If you have any questions, feedback, or suggestions, feel free to reach out at  [dreamsoftware92@gmail.com](mailto:dreamsoftware92@gmail.com).
 
+## Acknowledgments 🙏
+
+We would like to extend our heartfelt gratitude to the incredible team at **AI acelera** and **Julio Colomer** for their outstanding bootcamp on Generative AI. The comprehensive and insightful materials provided during the bootcamp have been instrumental in the development of this project. 
+
+The knowledge and guidance from the AI acelera bootcamp have empowered us to explore the vast potential of generative AI, particularly in the areas of content creation, multi-agent collaboration, and the application of advanced LLM models. 
+
+Thank you for your dedication to advancing AI education and for sharing your expertise with the community. Your efforts have made a significant impact on our understanding and application of generative AI technologies.
+
 ## Visitors Count
 
 <img width="auto" src="https://profile-counter.glitch.me/streamlit_llm_langchain_applications/count.svg" />
