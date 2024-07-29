@@ -93,19 +93,19 @@ def main():
             "🔑 Groq API Key:",
             type="password",
         )
-        taviliy_api_key = st.text_input(
+        tavily_api_key = st.text_input(
             "🔑 Tavily API Key:",
             type="password",
         )
         submitted = st.form_submit_button(
             "🚀 Submit",
         )
-        if submitted and groq_api_key and taviliy_api_key and topic:
+        if submitted and groq_api_key and tavily_api_key and topic:
             with st.spinner("Processing... :hourglass_flowing_sand:"):
                 # Initialize LLM with selected model 
                 llm = initialize_llm(groq_api_key, models[selected_model])
-                search = TavilySearchAPIWrapper(tavily_api_key=taviliy_api_key)
-                tools = [TavilySearchResults(max_results=1, api_wrapper=search), process_search_tool]
+                search = TavilySearchAPIWrapper(tavily_api_key=tavily_api_key)
+                tools = [TavilySearchResults(api_wrapper=search), process_search_tool]
 
                 agents = initialize_agents(topic, llm, tools)
 
