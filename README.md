@@ -228,3 +228,26 @@ This application leverages multiple AI agents to generate comprehensive content 
 6. **Creai Evaluation:** Assesses the performance and effectiveness of the agents' outputs.
 
 This POC demonstrates the powerful synergy between multiple AI agents, advanced LLM models, and a user-friendly interface, offering a comprehensive solution for automated content generation and management.
+
+<img src="doc/picture_14.PNG" />
+<img src="doc/picture_15.PNG" />
+<img src="doc/picture_16.PNG" />
+<img src="doc/picture_17.PNG" />
+<img src="doc/picture_18.PNG" />
+
+## Contribution
+
+Contributions to this repository are highly encouraged! If you're interested in adding new features, resolving bugs, or enhancing the project's functionality, please feel free to submit pull requests.
+
+## Get in Touch 📬
+
+This repository is developed and maintained by **Sergio Sánchez Sánchez** (Dream Software). Special thanks to the open-source community and the contributors who have made this project possible. If you have any questions, feedback, or suggestions, feel free to reach out at  [dreamsoftware92@gmail.com](mailto:dreamsoftware92@gmail.com).
+
+## Visitors Count
+
+<img width="auto" src="https://profile-counter.glitch.me/streamlit_llm_langchain_applications/count.svg" />
+
+## Please Share & Star the repository to keep me motivated.
+  <a href = "https://github.com/sergio11/streamlit_llm_langchain_applications/stargazers">
+     <img src = "https://img.shields.io/github/stars/sergio11/streamlit_llm_langchain_applications" />
+  </a>
