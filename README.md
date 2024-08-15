@@ -56,42 +56,6 @@ The **Streamlit Dynamic Writing Assistant** is a cutting-edge application design
 
 - **🚀 Productivity Booster:** Save time and enhance your productivity by letting the AI handle the initial drafting, allowing you to focus on refining and perfecting your content.
 
-## Integration with LangChain
-
-Here's a brief extract from our codebase demonstrating how LangChain has been seamlessly integrated to orchestrate model interactions:
-
-```python
-from langchain.tools import tool
-from langchain_groq import ChatGroq
-from langchain_community.tools.tavily_search import TavilySearchResults
-
-# Initialize LLM with Groq model
-def initialize_llm(api_key, model_id):
-    llm = ChatGroq(temperature=0, api_key=api_key, model=model_id)
-    return llm
-
-@tool("process_search_tool", return_direct=False)
-def process_search_tool(url: str) -> str:
-    """Used to process content found on the internet."""
-    response = requests.get(url=url)
-    soup = BeautifulSoup(response.content, "html.parser")
-    return soup.get_text()
-
-# Example usage within an agent
-llm = initialize_llm(groq_api_key, models[selected_model])
-tools = [TavilySearchResults(max_results=1, api_key=taviliy_api_key), process_search_tool]
-
-online_researcher = Agent(
-    role="Online Researcher",
-    goal="Research the topic online",
-    backstory="""Your primary role is to function as an intelligent online research assistant...""",
-    verbose=True,
-    allow_delegation=True,
-    tools=tools,
-    llm=llm
-)
-```
-
 <img src="doc/picture_3.PNG" />
 
 ### 2. streamlit-extract-json-from-review 📝
