@@ -11,9 +11,9 @@ This repository features several Proof of Concept (POC) applications that levera
 - **🔗 LangChain Orchestration:** Seamlessly managing multi-agent workflows with the **LangChain** framework, facilitating smooth and coordinated interactions between different components of our applications.
 - **💻 Interactive UIs with Streamlit:** Offering user-friendly and dynamic interfaces for real-time interaction and feedback, making AI accessible and practical for users of all levels.
 
-## Evaluation with creai:
+## Evaluation with CrewAI:
 
-In addition to showcasing the capabilities of these applications, we also employ **creai** to rigorously evaluate the performance and capacity of our agents. This ensures that each agent not only performs its designated tasks efficiently but also meets high standards of accuracy and reliability.
+In addition to showcasing the capabilities of these applications, we also employ **CrewAI** to rigorously evaluate the performance and capacity of our agents. This ensures that each agent not only performs its designated tasks efficiently but also meets high standards of accuracy and reliability.
 
 **creai** allows us to:
 
