@@ -4,6 +4,14 @@ Welcome to the Streamlit LLM Applications Showcase! 🚀
 
 This repository features several Proof of Concept (POC) applications that leverage open-source LLM (Large Language Model) models. These models are powered by **Groq** for cloud inference and orchestrated using the **LangChain** framework. Our applications are designed with **Streamlit** to provide interactive and engaging user interfaces.
 
+## ⚠️ Disclaimer  
+
+**Streamlit LLM** is an **experimental and educational project** created to explore and demonstrate the capabilities of **open-source Large Language Models (LLMs)** using **Groq cloud inference**, **LangChain orchestration**, and **Streamlit-based UI development**.  
+
+This repository serves as a **proof of concept (POC)** and is intended solely for **learning, research, and prototyping**.
+
+The project does not host, train, or own any of the **LLMs** used. Instead, it leverages publicly available models such as **LLaMA3** and **Mixtral** via external services. Users should comply with the respective licenses and terms of service of these models when deploying or modifying this project.  
+
 ## Key Highlights:
 
 - **🧠 Advanced LLM Models:** Utilizing state-of-the-art models like **LLaMA3** and **Mixtral** for various NLP tasks, ensuring cutting-edge performance in language understanding and generation.
