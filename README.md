@@ -4,6 +4,10 @@ Welcome to the Streamlit LLM Applications Showcase! 🚀
 
 This repository features several Proof of Concept (POC) applications that leverage open-source LLM (Large Language Model) models. These models are powered by **Groq** for cloud inference and orchestrated using the **LangChain** framework. Our applications are designed with **Streamlit** to provide interactive and engaging user interfaces.
 
+I would like to extend my heartfelt gratitude to the incredible team at **AI acelera** and **Julio Colomer** for their outstanding bootcamp on Generative AI available on [Udemy](https://www.udemy.com/course/bootcamp-ia-generativa-y-aplicaciones-llm/). The comprehensive and insightful materials provided during the bootcamp have been instrumental in the development of this project. 
+
+The knowledge and guidance from the AI acelera bootcamp have empowered us to explore the vast potential of generative AI, particularly in the areas of content creation, multi-agent collaboration, and the application of advanced LLM models. 
+
 ## ⚠️ Disclaimer  
 
 **Streamlit LLM** is an **experimental and educational project** created to explore and demonstrate the capabilities of **open-source Large Language Models (LLMs)** using **Groq cloud inference**, **LangChain orchestration**, and **Streamlit-based UI development**.  
@@ -217,7 +221,7 @@ This repository is developed and maintained by **Sergio Sánchez Sánchez** (Dre
 
 ## Acknowledgments 🙏
 
-We would like to extend our heartfelt gratitude to the incredible team at **AI acelera** and **Julio Colomer** for their outstanding bootcamp on Generative AI. The comprehensive and insightful materials provided during the bootcamp have been instrumental in the development of this project. 
+I would like to extend my heartfelt gratitude to the incredible team at **AI acelera** and **Julio Colomer** for their outstanding bootcamp on Generative AI available on [Udemy](https://www.udemy.com/course/bootcamp-ia-generativa-y-aplicaciones-llm/). The comprehensive and insightful materials provided during the bootcamp have been instrumental in the development of this project. 
 
 The knowledge and guidance from the AI acelera bootcamp have empowered us to explore the vast potential of generative AI, particularly in the areas of content creation, multi-agent collaboration, and the application of advanced LLM models. 
 
