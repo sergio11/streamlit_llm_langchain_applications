@@ -211,14 +211,6 @@ This POC demonstrates the powerful synergy between multiple AI agents, advanced 
 <img src="doc/picture_17.PNG" />
 <img src="doc/picture_18.PNG" />
 
-## Contribution
-
-Contributions to this repository are highly encouraged! If you're interested in adding new features, resolving bugs, or enhancing the project's functionality, please feel free to submit pull requests.
-
-## Get in Touch 📬
-
-This repository is developed and maintained by **Sergio Sánchez Sánchez** (Dream Software). Special thanks to the open-source community and the contributors who have made this project possible. If you have any questions, feedback, or suggestions, feel free to reach out at  [dreamsoftware92@gmail.com](mailto:dreamsoftware92@gmail.com).
-
 ## Acknowledgments 🙏
 
 I would like to extend my heartfelt gratitude to the incredible team at **AI acelera** and **Julio Colomer** for their outstanding bootcamp on Generative AI available on [Udemy](https://www.udemy.com/course/bootcamp-ia-generativa-y-aplicaciones-llm/). The comprehensive and insightful materials provided during the bootcamp have been instrumental in the development of this project. 
@@ -231,7 +223,4 @@ Thank you for your dedication to advancing AI education and for sharing your exp
 
 <img width="auto" src="https://profile-counter.glitch.me/streamlit_llm_langchain_applications/count.svg" />
 
-## Please Share & Star the repository to keep me motivated.
-  <a href = "https://github.com/sergio11/streamlit_llm_langchain_applications/stargazers">
-     <img src = "https://img.shields.io/github/stars/sergio11/streamlit_llm_langchain_applications" />
-  </a>
+
